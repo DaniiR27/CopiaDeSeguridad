@@ -10,7 +10,7 @@ public class CopiaDeFicheros {
 
         File rutanb = new File("");
         System.out.println("Los archivos a los que desee realizar una copia de seguridad deben estar situados en" + rutanb.getAbsolutePath()+ File.separator);
-        String r = Utilidades.PedirDirección("Introduzca la direccion de el archivo que quiera copiar: ");
+        String r = Utilidades.PedirDirección("Introduzca el nombre del archivo: ");
 
         File ruta = new File(rutanb.getAbsolutePath()+ File.separator + r );
 
